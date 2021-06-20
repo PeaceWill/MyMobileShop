@@ -157,40 +157,6 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="list-box">
-            <div class="margin-box">
-                <div class="box__wrap">
-                    <div class="box__title">
-                        <h3>Hỗ trợ sản phẩm</h3>
-                    </div>
-                    <form class="box__content" id="product__support" method="POST" action="">
-                        <div class="content__group">
-                            <div class="pad-ver--10px">
-                                <label class="content__group-label">
-                                    Bảo hành
-                                </label>
-                                <i class="fas fa-pen" style="margin-left: 8px"></i>
-                            </div>
-                            <textarea name="" id="" cols="30" rows="4"></textarea>
-                        </div>
-                        <div class="content__group">
-                            <div class="pad-ver--10px">
-                                <label class="content__group-label">
-                                    GIảm giá
-                                </label>
-                                <i class="fas fa-pen" style="margin-left: 8px"></i>
-                            </div>
-                            <input type="text" class="content__group-input" name="member-2" value="">
-                        </div>
-                        <div class="content__group">
-                            <button class="form__submit-btn" id="product__support">Cập nhập nội dung</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 <script>
     updateContentIntro();

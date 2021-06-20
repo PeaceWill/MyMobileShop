@@ -7,6 +7,8 @@
                     <img src="../../asset/img/logo/logo-inverse.jpg" alt="">
                 </div>
                 <?php 
+                    include_once '../../controller/pageClass.php';
+                    $page_class = new PageClass();
                     $member = $page_class->getAllMember();
                     $socail = $page_class->getSocialNetwork();
                 ?>
@@ -30,7 +32,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <div class="row">
+                <div class="row" style="align-items: start;">
                     <div class="footer-col l-3 m-3 c-12">
                         <label>Sản phẩm</label>
                         <ul class="footer__list">

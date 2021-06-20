@@ -1,6 +1,7 @@
 // Link api để gọi tới 
-var link_client_api = 'http://localhost/shop/view/client/client-api.php';
-var link_admin_api = 'http://localhost/shop/view/admin/admin-api.php';
+var hostname = window.location.hostname;
+var link_client_api = `http://localhost:80/shop/view/client/client-api.php`;
+var link_admin_api = `http://localhost:80/shop/view/admin/admin-api.php`;
 
 // Dưới đây là các hàm Ajax
 

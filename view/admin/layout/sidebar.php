@@ -81,11 +81,6 @@
 								Thông tin 
 							</a>
 						</li>
-						<li class="side-bar-item-droplist-item">
-							<a class="side-bar-item-droplist-link link" href="pageslide.php">
-								Slide show
-							</a>
-						</li>
 					</ul>
 				</li>
 			</ul>

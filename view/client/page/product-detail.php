@@ -6,7 +6,6 @@
         $product_detail = $product->getProductDetail($_GET['id']);
         $htmlProductDetail .= '
                         <h3 class="product__heading">'.$product_detail['name'].'</h3>
-                        <div class="product__brand">Thương hiệu:</div>
                         <div class="row">
                             <div class="product__detail l-7 m-7 c-12">
                                 <ul class="product__detail-list">
